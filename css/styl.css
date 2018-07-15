@@ -1,0 +1,406 @@
+@font-face{
+	font-family:nowy;
+	src:url(../fonty/ARIALN.TTF);
+	}
+
+body{
+	position: relative;
+	-webkit-overflow-scrolling: touch;
+	font-family: 'Raleway', sans-serif;
+	line-height:1.6em;
+	font-size:16px !important;
+	}
+
+.affix {
+      top: 0px;
+  }	
+
+	/*------------- NOWE --------------*/
+
+
+.pod{
+	position:fixed; 
+	width: 100%; 
+	height:100px; 
+	left:0; 
+	top: 0; 
+	background:#fff; 
+	z-index:1
+	}
+
+.topMain{
+	background:#fff;
+	min-height:180px;
+	position: relative;
+	z-index:1;
+	}
+	
+.navbar{
+	position: fixed;
+	z-index:1000;
+	width:0;
+	height:100%;
+	background:#000;
+	top:0;
+	right:0;
+	overflow:hidden;
+	-webkit-transition: all 0.5s ease-in;
+	-moz-transition: all 0.5s ease-in;
+	-ms-transition: all 0.5s ease-in;
+	-o-transition: all 0.5s ease-in;
+	transition: all 0.5s ease-in;	
+	}
+	
+.wysuw{
+	width:30%;
+	-webkit-transition: all 0.5s ease-in;
+	-moz-transition: all 0.5s ease-in;
+	-ms-transition: all 0.5s ease-in;
+	-o-transition: all 0.5s ease-in;
+	transition: all 0.5s ease-in;
+	}
+	
+.navbar ul{
+	margin-top:200px;
+	}		
+.navbar a{
+	color: #fff;
+	font-size:1.5em;
+	text-decoration:none;
+	}	
+.navbar li{
+	padding: 12px 0;
+	list-style-type: none;
+	}	
+
+
+#myNavbar{
+	/*margin-top:5.5%;*/
+	}
+#myNavbar li{
+	display:block !important;
+	width: 100%;
+	-webkit-transition: all 0.5s ease-in;
+	-moz-transition: all 0.5s ease-in;
+	-ms-transition: all 0.5s ease-in;
+	-o-transition: all 0.5s ease-in;
+	transition: all 0.5s ease-in;
+	}
+
+#myNavbar li:hover > a{
+	color: #fff !important;	
+	background-color: #b41e4c;
+}
+
+
+
+#hamburger{
+	position:fixed;
+	top: 0;
+	right: 1%;
+	cursor:pointer;
+	font-size: 2.5em;
+	padding:1em;
+	color:#0CF;
+	z-index:1000;
+	-webkit-transition: all 0.5s ease-in;
+	-moz-transition: all 0.5s ease-in;
+	-ms-transition: all 0.5s ease-in;
+	-o-transition: all 0.5s ease-in;
+	transition: all 0.5s ease-in;
+	}	
+	
+#miniTop{
+	background: #fff;
+	width:100%;
+	min-height: 100px;
+	}	
+/**********************************/
+
+#back{
+	top:80%;
+	right:0;
+	border:1px solid #777;
+	-webkit-transition: all 0.5s ease-in;
+	-moz-transition: all 0.5s ease-in;
+	-ms-transition: all 0.5s ease-in;
+	-o-transition: all 0.5s ease-in;
+	transition: all 0.5s ease-in;
+	}
+p button{
+	display:block;
+	width:150px;
+	text-align:right;
+	margin-top:2%;
+	margin-left:80%;
+	background: transparent;
+	padding:1%;
+	text-align:center;
+	border-radius:4px;
+	}
+.but1{
+	border:2px solid #fff;
+	color:#fff;
+	}
+.but2{
+		border:2px solid #999;
+	color:#444;
+	}
+
+/*-----------------------------------------------------
+
+                       E K R A N Y
+
+------------------------------------------------------*/	
+  #sekcja1,
+  #sekcja2,
+  #sekcja3,
+  #sekcja4,
+  #sekcja5
+  {
+	padding-top: 15vh;
+	height: 1100px;
+	color: #fff;
+	background-color: #CCC;
+	position: relative;
+	background-attachment: fixed;
+	background-position: center top;
+	background-size: cover;
+}
+#sekcja1{
+	background-color: #a9cdc3;
+	color: #444;
+	background-image: url(../images/tlo.jpg);
+}
+  #sekcja2 {
+	background-image: url(../images/tlo3.jpg);
+	background-position: center bottom;
+	color:#333;
+}
+  #sekcja3 {
+	background-image: url(../images/tlo4.jpg);
+	color:#fff;
+}
+
+#sekcja4 {
+	background-image: url(../images/tlo5.jpg);
+	color: #fff;
+}
+#sekcja5 {
+	background-image: url(../images/tlo6.jpg);
+	color: #fff;
+}
+/*------------------------------------*/
+.butDys{
+	text-align:right;
+	}
+.butDys button{
+	color: #fff;
+	padding: 1px 8px;
+	border-radius: 6px;
+	border:3px solid #0b80db;
+	margin: 7px;
+	background: #000;
+	-webkit-transition: all 0.5s ease-in;
+	-moz-transition: all 0.5s ease-in;
+	-ms-transition: all 0.5s ease-in;
+	-o-transition: all 0.5s ease-in;
+	transition: all 0.5s ease-in;
+}
+.butDys button:hover{
+	background:#E4013B;
+	}	
+	
+/*******************************************/	
+#wstep{
+	width: 100%;
+	height: 650px;
+	padding-top: 2%;
+	background-image: url(../images/tlo.jpg);
+	position: relative;
+	background-attachment: fixed;
+	}
+#wstep h1{
+	font-size: 3em;
+	color: #066;
+	text-align: center;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-variant: small-caps;
+	}
+/*--------- logo małe  --------------*/	
+#logo{
+		left:10%;
+		}
+#sterowiec{
+	position: absolute;
+	top:20%;
+	left:5%;
+	animation: animSterowiec 6s  ease-out infinite;
+	}
+@keyframes animSterowiec{
+	60%{top: 22%;}
+	50%{transform: scale(1.3);}
+	}
+
+/*--------------------------------------------------------------------------
+           
+		                        A   R   E   O 
+
+--------------------------------------------------------------------------*/	
+#areo{
+	position: absolute;
+	top:20%;
+	left:5%;
+	animation: animAreo 4s  ease-out infinite;
+	}
+@keyframes animAreo{
+	20%{top: 22%;}
+	30%{top: 15%;}
+	32%{transform: rotateZ(10deg);}
+	35%{top:20%;}
+	40%{top:18%}
+	45%{top:16%}
+	50%{top:17%}
+	60%{top:20%}
+	70%{top:17%}
+	75%{transform: rotateZ(-2%deg);}
+	80%{top:19%}
+	80%{top:16%}
+	80%{top:15%}
+	}
+#sterowiec{
+	position: absolute;
+	top:20%;
+	left:5%;
+	animation: animSterowiec 6s  ease-out infinite;
+	}
+@keyframes animSterowiec{
+	60%{top: 22%;}
+	50%{transform: scale(1.3);}
+	}
+
+/*-------------------	typografia	--------------------*/
+header{
+	font-size:1.5em;
+	margin:1em;
+	font-weight:600;
+	}
+	
+h1{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-variant: small-caps;
+	letter-spacing: 0.2em;
+	color: #066;
+	}	
+#sekcja3 h1,
+#sekcja4 h1{
+	color: #fff;
+	}
+		
+#sekcja1 h1,
+#sekcja2 h1,
+#sekcja3 h1,
+#sekcja4 h1,
+#sekcja5 h1{
+	font-size:5rem !important;
+	margin: auto;
+	text-align:center;
+	padding-bottom: 0 !important;
+	}
+	
+.rowPrawy,
+.rowLewy{
+	position:relative;
+	clear:both;
+	}
+.rowLewy h1{
+	padding-bottom:5vh;
+	}
+.rowPrawy{ 
+	margin-bottom:3vw;
+	display:table;
+	}
+.cytat{
+	font-size:1.1em;
+	}
+div.cytat em{
+	display: table;	
+	width: 80%;
+	margin-top:1em;
+	margin-bottom:1em;
+	}		
+h1.teraz{
+	font-size:6rem !important;
+	width:50%;
+	margin: auto;
+	padding-bottom: 0 !important;
+	}
+.podTitle a{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-style: italic;
+	color: #066;
+	clear: both;
+	margin-bottom: 30px;
+	letter-spacing: 0.2em;
+	display: block;
+	margin-top: 20px;
+	text-align: center;
+	font-size:1.1em;
+	}
+#sekcja3 .podTitle a,
+#sekcja4 .podTitle a{
+	color: #fff !important;
+}
+/*------------------------------------------
+
+				M O B I L E
+
+------------------------------------------*/			
+
+@media (max-width: 768px) {
+
+	#sekcja1,
+	#sekcja2,
+	#sekcja3{
+		height: 2000px;
+		}
+	 
+	#sekcja1 h1,
+	#sekcja2 h1,
+	#sekcja3 h1,
+	#sekcja4 h1,
+	#sekcja5 h1{
+		font-size:2.5em;
+		}
+  
+.wysuw{
+	width:90%;
+	}
+
+	
+#myNavbar{
+	display:block !important;
+	}
+.navbar ul{
+	margin-top:120px;
+	}	
+	
+	
+#wstep{
+	background-position: bottom center;
+	background-size:cover;
+	}
+#wstep h1{
+	 padding-top:200px;
+	 }
+#sterowiec,
+#areo{
+	position: relative;
+	width:80%;
+	display:block;
+	animation: none;
+	}
+}	
+@media (min-width: 992px) {
+
+}
